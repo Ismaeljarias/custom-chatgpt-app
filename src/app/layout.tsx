@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <SessionProvider>
       <html lang="en">
-        <body className={`${inter.className} px-2 md:px-5`}>
+        <body className={`${inter.className} mx-2 md:mx-5`}>
           <header className="text-white font-bold bg-green-900 text-2xl p-2 mb-3 rounded-b-lg shadow-gray-700 shadow-lg flex">
             <div className="flex flex-grow">
               <Link href="/">GPT Chat</Link>
